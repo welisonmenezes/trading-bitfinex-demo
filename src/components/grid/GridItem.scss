@@ -1,0 +1,31 @@
+.GridItem {
+    width: 100%;
+    padding: 0.15rem 0.5rem;
+    border-bottom: solid 1px var(--bg-dark-color);
+    cursor: pointer;
+
+    transition: background-color 0.35s;
+
+    div {
+        text-align: center;
+        width: 100%;
+    }
+
+    &.is-up {
+        background-color: var(--positive-light-color);
+    }
+
+    &.is-negative {
+        &.is-up {
+            background-color: var(--negative-light-color);
+        }
+    }
+
+    &:hover {
+        background-image: linear-gradient(
+            to left,
+            var(--hover-color),
+            var(--hover-color)
+        ) !important;
+    }
+}

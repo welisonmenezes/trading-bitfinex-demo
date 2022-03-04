@@ -1,0 +1,28 @@
+.Grid {
+    font-size: 0.7rem;
+    width: 100%;
+
+    > div {
+        width: 100%;
+
+        &:first-child {
+            text-align: right;
+
+            .GridItem {
+                :last-child {
+                    text-align: right;
+                }
+            }
+        }
+
+        &:last-child {
+            .GridItem {
+                flex-direction: row-reverse;
+
+                :last-child {
+                    text-align: left;
+                }
+            }
+        }
+    }
+}

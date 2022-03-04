@@ -1,0 +1,28 @@
+$bg-color: #172d3e;
+$bg-dark-color: #172b3b;
+$text-color: #ffffff;
+$negative-color: #403340;
+$negative-light-color: #2f313f;
+$positive-color: #12454c;
+$positive-light-color: #133a44;
+$border-color: #1b3850;
+$error-color: lightcoral;
+$hover-color: #0E3452;
+
+:root {
+    --bg-color: #{$bg-color};
+    --bg-dark-color: #{$bg-dark-color};
+    --text-color: #{$text-color};
+    --negative-color: #{$negative-color};
+    --negative-light-color: #{$negative-light-color};
+    --positive-color: #{$positive-color};
+    --positive-light-color: #{$positive-light-color};
+    --border-color: #{$border-color};
+    --error-color: #{$error-color};
+    --hover-color: #{$hover-color};
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}

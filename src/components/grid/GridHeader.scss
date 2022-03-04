@@ -1,0 +1,24 @@
+.GridHeader {
+    font-weight: 500;
+    font-size: 0.85rem;
+    text-align: center;
+    border-bottom: solid 1px var(--border-color);
+    background-color: var(--bg-dark-color);
+
+    > div {
+        width: 100%;
+        padding: 0.25rem 0.5rem;
+
+        &:last-child {
+            text-align: right;
+        }
+    }
+
+    &.flex-row-reverse {
+        > div {
+            &:last-child {
+                text-align: left;
+            }
+        }
+    }
+}

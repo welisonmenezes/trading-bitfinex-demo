@@ -1,0 +1,12 @@
+.Spinner {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 9;
+    left: 0;
+    top: 0;
+
+    > svg {
+        max-width: 75px;
+    }
+}
