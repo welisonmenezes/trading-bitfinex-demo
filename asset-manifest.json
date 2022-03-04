@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/trading-bitfinex-demo/static/css/main.c1972a6b.css",
+    "main.js": "/trading-bitfinex-demo/static/js/main.ed2b38c4.js",
+    "static/js/787.4a1a0c5e.chunk.js": "/trading-bitfinex-demo/static/js/787.4a1a0c5e.chunk.js",
+    "index.html": "/trading-bitfinex-demo/index.html",
+    "main.c1972a6b.css.map": "/trading-bitfinex-demo/static/css/main.c1972a6b.css.map",
+    "main.ed2b38c4.js.map": "/trading-bitfinex-demo/static/js/main.ed2b38c4.js.map",
+    "787.4a1a0c5e.chunk.js.map": "/trading-bitfinex-demo/static/js/787.4a1a0c5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1972a6b.css",
+    "static/js/main.ed2b38c4.js"
+  ]
+}
